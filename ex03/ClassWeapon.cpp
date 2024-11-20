@@ -6,7 +6,7 @@
 /*   By: vodebunm <vodebunm@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 15:33:30 by vodebunm          #+#    #+#             */
-/*   Updated: 2024/11/20 16:43:30 by vodebunm         ###   ########.fr       */
+/*   Updated: 2024/11/20 17:59:19 by vodebunm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ Weapon::Weapon(const std::string& type) : _type(type)
 
 Weapon::Weapon()
 {
-    std::cout << "Default Constructor" << std::endl;
+    std::cout << "Default Constructor " "" << std::endl;
 }
 
 Weapon::~Weapon()

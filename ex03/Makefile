@@ -6,14 +6,14 @@
 #    By: vodebunm <vodebunm@student.42heilbronn.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/20 15:03:44 by vodebunm          #+#    #+#              #
-#    Updated: 2024/11/20 15:05:58 by vodebunm         ###   ########.fr        #
+#    Updated: 2024/11/20 17:38:10 by vodebunm         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = violence
 
 # Source file for the project
-SRC = main.cpp HumanA.cpp HumanB.cpp Weapon.cpp
+SRC = main.cpp ClassHumanA.cpp ClassHumanB.cpp ClassWeapon.cpp
 
 # Object files will be derived from the source files
 OBJ = $(SRC:.cpp=.o)
