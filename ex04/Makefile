@@ -6,14 +6,14 @@
 #    By: vodebunm <vodebunm@student.42heilbronn.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/21 09:41:41 by vodebunm          #+#    #+#              #
-#    Updated: 2024/11/21 09:45:44 by vodebunm         ###   ########.fr        #
+#    Updated: 2024/11/21 10:47:43 by vodebunm         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = Sed
 
 # Source file for the project
-SRC = main.cpp
+SRC = main.cpp utils.cpp
 
 # Object files will be derived from the source files
 OBJ = $(SRC:.cpp=.o)
